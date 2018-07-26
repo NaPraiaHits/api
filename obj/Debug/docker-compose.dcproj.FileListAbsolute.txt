@@ -1,2 +1,0 @@
-C:\Users\dbernardes\source\repos\SearchAPI\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
-C:\projetos\api.search\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
