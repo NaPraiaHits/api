@@ -9,7 +9,7 @@ services:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI:/app
+      - C:\projetos\api.search\SearchAPI:/app
       - C:\Users\dbernardes\vsdbg\vs2017u5:/remote_debugger:ro
       - C:\Users\dbernardes\.nuget\packages\:/root/.nuget/packages:ro
       - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
