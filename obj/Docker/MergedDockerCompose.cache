@@ -1,0 +1,19 @@
+services:
+  searchapi:
+    build:
+      context: C:\Users\dbernardes\source\repos\SearchAPI
+      dockerfile: SearchAPI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44314'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: searchapi
+    ports:
+    - published: 59383
+      target: 80
+    - published: 44314
+      target: 443
+    volumes:
+    - C:\Users\dbernardes\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\dbernardes\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

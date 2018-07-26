@@ -1,0 +1,14 @@
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\bin\Debug\netcoreapp2.1\SearchAPI.deps.json
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\bin\Debug\netcoreapp2.1\SearchAPI.runtimeconfig.json
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\bin\Debug\netcoreapp2.1\SearchAPI.runtimeconfig.dev.json
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\bin\Debug\netcoreapp2.1\SearchAPI.dll
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\bin\Debug\netcoreapp2.1\SearchAPI.pdb
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\obj\Debug\netcoreapp2.1\SearchAPI.csproj.CoreCompileInputs.cache
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\obj\Debug\netcoreapp2.1\SearchAPI.RazorAssemblyInfo.cache
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\obj\Debug\netcoreapp2.1\SearchAPI.RazorAssemblyInfo.cs
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\obj\Debug\netcoreapp2.1\SearchAPI.AssemblyInfoInputs.cache
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\obj\Debug\netcoreapp2.1\SearchAPI.AssemblyInfo.cs
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\obj\Debug\netcoreapp2.1\SearchAPI.RazorTargetAssemblyInfo.cache
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\obj\Debug\netcoreapp2.1\SearchAPI.dll
+C:\Users\dbernardes\source\repos\SearchAPI\SearchAPI\obj\Debug\netcoreapp2.1\SearchAPI.pdb
