@@ -1,7 +1,7 @@
 services:
   searchapi:
     build:
-      context: C:\Users\dbernardes\source\repos\SearchAPI
+      context: C:\projetos\api.search
       dockerfile: SearchAPI/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
