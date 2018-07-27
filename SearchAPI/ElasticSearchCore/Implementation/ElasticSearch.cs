@@ -1,7 +1,9 @@
 ﻿
-using SearchAPI.ElasticCommand;
+using SearchAPI.ElasticServices;
 using SearchAPI.Model;
 using System;
+using System.Collections.Generic;
+using System.Reflection.Metadata;
 
 namespace SearchAPI.ElasticSearchCore.Implementation
 {
@@ -15,9 +17,9 @@ namespace SearchAPI.ElasticSearchCore.Implementation
             _command = command ?? throw new ArgumentNullException("Core command", "Core ElasticCommand não iniciado.");
         }
         
-        public void Get(int id)
+        public IEnumerable<Doc> Get(int id)
         {
-            _command.Search<SearchParameter>(s => s.From(0).Size(10));
+            return _command.Search<Doc>(s => s.From(0).Size(10));
         }
     }
 }
