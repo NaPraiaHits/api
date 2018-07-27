@@ -36,15 +36,7 @@ namespace SearchAPI.ElasticServices
         {
             var response = _client.Delete<T>(chave);
             ValidateResponse(response);
-        }
-        public void DeleteBulk<T>(IEnumerable<T> doc) where T : class
-        {
-            var bulkResponse = _client.Bulk(new BulkRequest
-            {
-                Operations = doc.Select(x => new BulkDeleteOperation<T>(x)).Cast<IBulkOperation>().ToList()
-            });
 
-        }        
         private void ValidateResponse(IResponse response)
         {
             if (response.OriginalException != null)

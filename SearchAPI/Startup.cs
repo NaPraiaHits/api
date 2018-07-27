@@ -16,13 +16,13 @@ namespace SearchAPI
         {
             Configuration = configuration;
         }
-
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
+        {            
+            var command = new ElasticCommand(new ElasticClient(new Uri(Environment.GetEnvironmentVariable("ELASTICSEARCH-ENDPOINT"))));
         {
-            var command = new ElasticCommand(new ElasticClient(new Uri("http://localhost:9200")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddScoped<IElasticCommand>(srv => command);
             services.AddScoped<IElasticSearch>(srv=> new ElasticSearch(command));            
