@@ -1,7 +1,11 @@
 ﻿
+using SearchAPI.Model;
+using System.Collections.Generic;
+
 namespace SearchAPI.ElasticSearchCore.Implementation
 {
-    public class IElasticSearch
+    public interface IElasticSearch
     {
+        IEnumerable<Doc> Get(int id);
     }
 }
