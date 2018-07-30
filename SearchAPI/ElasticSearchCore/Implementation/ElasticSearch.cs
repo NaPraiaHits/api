@@ -15,11 +15,10 @@ namespace SearchAPI.ElasticSearchCore.Implementation
         public ElasticSearch(IElasticCommand command)
         {
             _command = command ?? throw new ArgumentNullException("Core command", "Core ElasticCommand não iniciado.");
-
         }        
         public IEnumerable<Doc> Get(int id)
         {
             return _command.Search<Doc>(s => s.Index(_elasticIndex).MatchAll());
-        }        
+        }
     }
 }
