@@ -36,7 +36,7 @@ namespace SearchAPI.ElasticServices
         {
             var response = _client.Delete<T>(chave);
             ValidateResponse(response);
-        }          
+        }
         private void ValidateResponse(IResponse response)
         {
             if (response.OriginalException != null)
